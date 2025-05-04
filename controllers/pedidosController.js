@@ -31,6 +31,7 @@ exports.obtenerPedidoPorId = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
+
 // Actualizar un pedido
 exports.actualizarPedido = async (req, res) => {
   try {
